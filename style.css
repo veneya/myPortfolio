@@ -263,27 +263,13 @@ html {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .dropdown-btn {
-        display: block; /* Show dropdown button */
-    }
-
-    nav ul {
-        display: none; /* Hide navigation links */
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    nav ul.active {
-        display: flex; /* Show navigation links when active */
-    }
-
     nav ul li {
         display: block;
         margin: 10px 0;
     }
 
-    .social_media img:not(.linkedin) {
-        display: none; /* Hide all social media icons except LinkedIn */
+    .navigation{
+        display:none;
     }
 
     section {
@@ -308,7 +294,7 @@ html {
     }
 }
 
-@media (max width:480px){
+@media (max width:500px){
     #experience div{
         padding: 30px 0px 40px 70px;
     }
