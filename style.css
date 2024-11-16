@@ -303,6 +303,10 @@ html {
         font-size: 2rem;
     }
 
+    .main_sections section{
+        height:max-content;
+    }
+
     footer form {
         flex-direction: column;
         align-items: flex-start;
